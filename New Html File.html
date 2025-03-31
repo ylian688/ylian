@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简历</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .resume {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .resume-title {
+            background: linear-gradient(135deg, #6B73FF 0%, #000DFF 100%);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 15px;
+            border: 1px solid #e0e0e0;
+            vertical-align: top;
+        }
+        th {
+            background-color: #f5f7fa;
+            text-align: left;
+            width: 25%;
+        }
+        .section-title {
+            color: #3f51b5;
+            font-weight: bold;
+        }
+        .photo-cell {
+            text-align: center;
+            width: 120px;
+        }
+        .photo {
+            width: 100px;
+            height: 120px;
+            object-fit: cover;
+            border: 2px solid #e0e0e0;
+            border-radius: 5px;
+            background-color: #eee;
+        }
+        .icon {
+            margin-right: 8px;
+            color: #3f51b5;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume">
+        <div class="resume-title">个人简历</div>
+        <table>
+            <!-- 基本信息 -->
+            <tr>
+                <th colspan="4" class="section-title">
+                    <i class="fas fa-user icon"></i>基本信息
+                </th>
+            </tr>
+            <tr>
+                <th>姓名</th>
+                <td>张三</td>
+                <th rowspan="4" class="photo-cell">照片</th>
+                <td rowspan="4">
+                    <!-- 替换为真实照片 -->
+                    <img src="photo-placeholder.jpg" alt="个人照片" class="photo">
+                </td>
+            </tr>
+            <tr>
+                <th>性别</th>
+                <td>男</td>
+            </tr>
+            <tr>
+                <th>出生日期</th>
+                <td>1990.05.15</td>
+            </tr>
+            <tr>
+                <th>联系方式</th>
+                <td>138-XXXX-XXXX</td>
+            </tr>
+            
+            <!-- 教育背景 -->
+            <tr>
+                <th colspan="4" class="section-title">
+                    <i class="fas fa-graduation-cap icon"></i>教育背景
+                </th>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <strong>XX大学</strong> | 计算机科学与技术 | 硕士 | 2015.09-2018.06<br>
+                    <strong>XX大学</strong> | 软件工程 | 学士 | 2011.09-2015.06
+                </td>
+            </tr>
+            
+            <!-- 工作经历 -->
+            <tr>
+                <th colspan="4" class="section-title">
+                    <i class="fas fa-briefcase icon"></i>工作经历
+                </th>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <strong>XX科技有限公司</strong> | 高级软件工程师 | 2018.07-至今<br>
+                    - 负责XX系统架构设计与核心模块开发<br>
+                    - 主导团队完成XX项目，获得公司创新奖<br><br>
+                    
+                    <strong>XX软件公司</strong> | 软件开发工程师 | 2016.06-2018.06<br>
+                    - 参与XX平台开发与维护<br>
+                    - 优化系统性能，响应速度提升30%
+                </td>
+            </tr>
+            
+            <!-- 自我评价 -->
+            <tr>
+                <th colspan="4" class="section-title">
+                    <i class="fas fa-comment-dots icon"></i>自我评价
+                </th>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    本人具有8年软件开发经验，熟练掌握Java、Python等编程语言，对分布式系统架构有深入理解。在XX领域有丰富的项目实战经验，曾主导完成多个大型企业级应用系统的设计与开发工作。具备良好的团队协作能力和项目管理经验，能够带领5-10人技术团队高效完成开发任务。工作认真负责，善于分析和解决问题，在之前的工作中多次获得"优秀员工"称号。学习能力强，持续关注新技术发展，已获得XX认证。性格开朗，沟通表达能力良好，能够快速融入团队并承担重要角色。期待在贵公司发挥我的技术专长和项目管理经验，与团队共同成长。此外，我始终保持对技术的热情，业余时间积极参与开源社区，曾在GitHub上发布过3个获得星标的项目。
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
